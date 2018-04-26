@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+
+ <html>
+     <head>
+         <title>Stuby Planner</title>
+         <link rel="stylesheet" type="text/css" href="css/style2.css"/>
+     </head>
+
+     <body>
+         <header>
+             <h1 id="greeting">Welcome to the Stuby Planner </h1>
+         </header>
+         <section id= "sec1">
+             <h2>Physics</h2>
+             
+             <label >How many hours did you read? </label><br>
+             <input id="physics" type="text" placeholder="enter a number" oninput="checkNUm();" required> 
+             <meter id="strengthA" min="1" max="3" value="0" low="2"></meter>
+             <button id="physicsNumber">enter</button>
+             <p id="minute"></p>
+             <p id="congress"></p>
+             <p id="minutesMessage"></p>
+             <p id="secondsMessage"></p>
+             <button hidden class="next" id="timingNext">next</button>
+         </section>
+          
+          <section  id="sec2" >
+             <h2>Chemistry</h2>
+             
+             <label >How many hours did you read? </label><br>
+             <input id="chemistry" type="text" placeholder="enter a number" 
+             oninput="checkNUm();" > 
+             <meter id="strengthB" min="1" max="3" value="0" low="2"></meter>
+             <button id="chemistryNumber">enter</button>
+
+              <p id="congress2"></p>
+             <p id="minutesMessage2"></p>
+             <p id="secondsMessage2"></p>
+             <button hidden class="next" id="timingNext2">next</button>
+         </section>
+
+
+          <section id = "sec3" >
+             <h2>Math</h2>
+             
+             <label >How many hours did you read? </label><br>
+             <input id="math" type="text" placeholder="enter a number"  oninput="checkNUm();" > 
+             <meter id="strengthC" min="1" max="3" value="0" low="2"></meter>
+             <button id="mathNumber">enter</button>
+
+             <p id="congress3"></p>
+             <p id="minutesMessage3"></p>
+             <p id="secondsMessage3"></p>
+             <button hidden class="next" id="timingNext3">next</button>
+         </section>
+
+            <section id = "sec4" >
+             <h2>Result</h2>
+             
+             <label >Do you want to know your total result? </label><br>
+             
+             <button class="next" id="timingNext4"> Click me</button><br>
+             <label hidden id="result"> </label>
+         </section>
+
+            <script type="text/javascript" src="studyPlanner.js"></script>
+
+        
+       
+     </body>
+ </html>

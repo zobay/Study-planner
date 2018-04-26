@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald');
+
+
+body{
+	background-color: #EAF0DF
+	
+}
+/*section{
+	display: inline-block;
+	font-weight: 15px;
+	font-family: 'Oswald', sans-serif;
+
+}*/
+
+h1{
+	 text-align: center;
+}
+
+	 input:invalid { background-color: lightPink;}
+      input:valid { background-color:lightGreen; }
+      input:required {border: 2px solid red;}
+      input:optional {border: 2px solid green;}
+
+     #sec1 input:focus {
+   padding-right:70px;
+}
+     /*#sec1 input {
+   transition: padding .25s;
+}*/
+ 
+ #sec2 input:focus {
+   padding-right:70px;
+}
+
+#sec3 input:focus {
+   padding-right:70px;
+}
+
+#sec4 input:focus {
+   padding-right:70px;
+}
+
+#sec1{
+    float: left;
+	border-style: solid;
+	border-color: #35E53A;
+	margin-right: 40%;
+	margin-left: 35%;
+	font-size: 20px;
+	padding-left: 30px;
+	border-radius: 25px;
+    	
+}
+
+#sec2{
+	visibility: hidden;
+	float: left;
+    border-style: solid;
+	border-color: #35E53A;
+	margin-right: 40%;
+	margin-left: 35%;
+	font-size: 20px;
+	padding-left: 30px;
+	border-radius: 25px;
+	
+	
+}
+
+
+#sec3{
+	visibility: hidden;
+	float: left;
+	border-style: solid;
+	border-color: #35E53A;
+	margin-right: 40%;
+	margin-left: 35%;
+	font-size: 20px;
+	padding-left: 30px;
+	border-radius: 25px;
+	
+}
+
+#sec4{
+	visibility: hidden;
+	float: left;
+	border-style: solid;
+	border-color: #35E53A;
+	margin-right: 40%;
+	margin-left: 35%;
+	font-size: 20px;
+	padding-left: 30px;
+	border-radius: 25px;
+	
+}
